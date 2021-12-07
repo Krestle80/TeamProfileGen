@@ -1,0 +1,40 @@
+{
+  "name": "teamProfileGen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "brace-expansion": "^1.1.11",
+    "camelcase": "^5.3.1",
+    "caniuse-lite": "^1.0.30001285",
+    "char-regex": "^1.0.2",
+    "ci-info": "^3.3.0",
+    "cjs-module-lexer": "^1.2.2",
+    "co": "^4.6.0",
+    "collect-v8-coverage": "^1.0.1",
+    "combined-stream": "^1.0.8",
+    "concat-map": "^0.0.1",
+    "convert-source-map": "^1.8.0",
+    "cssom": "^0.4.4",
+    "cssstyle": "^2.3.0",
+    "decimal.js": "^10.3.1",
+    "dedent": "^0.7.0",
+    "deep-is": "^0.1.4",
+    "deepmerge": "^4.2.2",
+    "delayed-stream": "^1.0.0",
+    "detect-newline": "^3.1.0",
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
