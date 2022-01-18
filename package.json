@@ -1,5 +1,5 @@
 {
-  "name": "teamProfileGen",
+  "name": "team_profile_gen",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -32,7 +32,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest --verbose test/*"
+    "test": "jest --verbose test/*",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",

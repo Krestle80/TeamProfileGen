@@ -214,6 +214,26 @@ let menuOptions = ["Add Engineer", "Add Intern", "Finish your Team!"]
             
         </html>`
         writeFileAsync("./dist/team.html", baseHtml)
+        writeFileAsync("./dist/style.css", css)
 }
 
+ let css = `html{
+    height: 100%
+}
+body{
+    height: 100%
+}
+/* rounds off the info cards, Bootstraps rounding isnt round enough for my taste*/
+.infoHolder{
+    border-radius: 20px;
+}
+
+.infoTop{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.infoBottom{
+    border-radius: 0px 0px 20px 20px;
+}
+`
 startForm();
